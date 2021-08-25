@@ -19,7 +19,7 @@ const Meals = () =>{
                             <div className='box'>
                                 <Link  to={`/meal/${item.id}`}>
                                     <img key={item.image} width='300' src={item.image.slice(0,60)} alt=""/>
-                                    <h3 key={item.id}>{item.title}</h3>
+                                    <h3 className='subtitle' key={item.id}>{item.title}</h3>
                                 </Link>
                             </div>
                         </div>

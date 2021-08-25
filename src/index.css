@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
-    font-size: 20px;
+    font-size: 25px;
+    text-decoration: none;
 }
 .row{
     display: flex;
