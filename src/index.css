@@ -14,3 +14,8 @@
 .box{
     margin-bottom: 10px;
 }
+.title{
+    font-size: 40px;
+    color: midnightblue;
+    text-align: center;
+}

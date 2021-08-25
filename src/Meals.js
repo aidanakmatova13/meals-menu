@@ -9,6 +9,8 @@ const Meals = () =>{
             .then(({data}) => setUsers(data))
     }, [])
     return (
+        <>
+            <h1 className='title'>Menu</h1>
         <div className='row'>
             {
                 users.map(item =>
@@ -25,6 +27,7 @@ const Meals = () =>{
                 )
             }
         </div>
+        </>
     )
 }
 export default Meals;
