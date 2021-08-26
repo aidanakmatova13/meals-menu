@@ -10,7 +10,7 @@ const MealDetails = () =>{
             .then(({data}) => setMeal(data.find( (item) => item.id === params.id)))
     }, [])
     return (
-        <div>
+        <div className='meal-content'>
             <img src={meal.image} alt=""/>
             <div className='meal-title'>Meal name: {meal.title}</div>
             <div className='meal-desc'>A little description: {meal.description}</div>
